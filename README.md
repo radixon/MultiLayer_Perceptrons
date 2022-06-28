@@ -1,6 +1,6 @@
 # XOR
 The mean squared error loss function is chosen to simplify this example; however, MSE usually is not an appropriate cost function for modeling binary data. The MSE loss function is <br />
-                                 ...𝐽(𝜽)= 14Σ(𝑓∗(𝒙)−𝑓(𝒙;𝜽))2𝒙∈𝕏 <br /> <br />
+                                 ..𝐽(𝜽)= 14Σ(𝑓∗(𝒙)−𝑓(𝒙;𝜽))2𝒙∈𝕏 <br /> <br />
                                  
 The form of the model, 𝑓(𝒙;𝜽), is chosen to be linear, with 𝜽 consisting of 𝝎 and 𝑏. Thus the model is defined to be <br />
                                  ---𝑓(𝒙;𝒘,𝑏)=𝒙𝑇𝝎 +𝑏 <br /> <br />
